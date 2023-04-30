@@ -10,7 +10,7 @@ export default function HomeScreen({ navigation }) {
 
             <Button
                 title="Go to Page 2"
-                onPress={() => navigation.navigate('Page2')}
+                onPress={() => navigation.navigate('Page2', {data:1})}
             />
         </View>
 
